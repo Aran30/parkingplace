@@ -1,0 +1,2559 @@
+{
+  "id": "ade3b6d8-928e-4cdb-95b3-4c7deabf7ebe",
+  "type": "Project",
+  "schemaVersion": 3,
+  "name": "Library",
+  "description": "Modern workspace project for UML, GUI and quantum modeling.",
+  "owner": "BESSER User",
+  "createdAt": "2026-04-03T06:53:18.999Z",
+  "currentDiagramType": "AgentDiagram",
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0,
+    "UserDiagram": 0
+  },
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "70f01b0e-540d-407d-b1d8-bce79342040e",
+        "title": "Team Player with OCL",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 1932,
+            "height": 1096
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "class_om2y99d5x_moculp9t_frd": {
+              "id": "class_om2y99d5x_moculp9t_frd",
+              "name": "Animal",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -610,
+                "y": -528,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_w29n3mvm7_moculp9t_kbz",
+                "attr_aqivi7aju_moculp9t_r0y"
+              ],
+              "methods": [
+                "method_wif83r1ax_moculp9t_03t",
+                "method_s0zwcg12n_moculp9u_wc5"
+              ]
+            },
+            "attr_w29n3mvm7_moculp9t_kbz": {
+              "id": "attr_w29n3mvm7_moculp9t_kbz",
+              "name": "age",
+              "type": "ClassAttribute",
+              "owner": "class_om2y99d5x_moculp9t_frd",
+              "bounds": {
+                "x": -609.5,
+                "y": -487.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "Int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_aqivi7aju_moculp9t_r0y": {
+              "id": "attr_aqivi7aju_moculp9t_r0y",
+              "name": "gender",
+              "type": "ClassAttribute",
+              "owner": "class_om2y99d5x_moculp9t_frd",
+              "bounds": {
+                "x": -609.5,
+                "y": -462.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "method_wif83r1ax_moculp9t_03t": {
+              "id": "method_wif83r1ax_moculp9t_03t",
+              "name": "isMammal()",
+              "type": "ClassMethod",
+              "owner": "class_om2y99d5x_moculp9t_frd",
+              "bounds": {
+                "x": -609.5,
+                "y": -437.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "method_s0zwcg12n_moculp9u_wc5": {
+              "id": "method_s0zwcg12n_moculp9u_wc5",
+              "name": "mate()",
+              "type": "ClassMethod",
+              "owner": "class_om2y99d5x_moculp9t_frd",
+              "bounds": {
+                "x": -609.5,
+                "y": -412.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_u0a66uip0_moculp9u_wx0": {
+              "id": "class_u0a66uip0_moculp9u_wx0",
+              "name": "Duck",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -634,
+                "y": -243,
+                "width": 220,
+                "height": 115
+              },
+              "attributes": [
+                "attr_irtoxx9lf_moculp9u_t9q"
+              ],
+              "methods": [
+                "method_otad08tgo_moculp9u_12q",
+                "method_ni1gygvh6_moculp9u_y7t"
+              ]
+            },
+            "attr_irtoxx9lf_moculp9u_t9q": {
+              "id": "attr_irtoxx9lf_moculp9u_t9q",
+              "name": "beakColr",
+              "type": "ClassAttribute",
+              "owner": "class_u0a66uip0_moculp9u_wx0",
+              "bounds": {
+                "x": -633.5,
+                "y": -202.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "String=\"Yellow\"",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "method_otad08tgo_moculp9u_12q": {
+              "id": "method_otad08tgo_moculp9u_12q",
+              "name": "Swim()",
+              "type": "ClassMethod",
+              "owner": "class_u0a66uip0_moculp9u_wx0",
+              "bounds": {
+                "x": -633.5,
+                "y": -177.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "method_ni1gygvh6_moculp9u_y7t": {
+              "id": "method_ni1gygvh6_moculp9u_y7t",
+              "name": "quack()",
+              "type": "ClassMethod",
+              "owner": "class_u0a66uip0_moculp9u_wx0",
+              "bounds": {
+                "x": -633.5,
+                "y": -152.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_xbot55ysu_moculp9u_rfx": {
+              "id": "class_xbot55ysu_moculp9u_rfx",
+              "name": "Fish",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -298,
+                "y": -242,
+                "width": 220,
+                "height": 115
+              },
+              "attributes": [
+                "attr_7l6o7zh6s_moculp9u_yzj",
+                "attr_9h67eqnjy_moculp9u_4yn"
+              ],
+              "methods": [
+                "method_ch771t2e8_moculp9u_0vp"
+              ]
+            },
+            "attr_7l6o7zh6s_moculp9u_yzj": {
+              "id": "attr_7l6o7zh6s_moculp9u_yzj",
+              "name": "sizeInFt",
+              "type": "ClassAttribute",
+              "owner": "class_xbot55ysu_moculp9u_rfx",
+              "bounds": {
+                "x": -297.5,
+                "y": -201.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "Int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_9h67eqnjy_moculp9u_4yn": {
+              "id": "attr_9h67eqnjy_moculp9u_4yn",
+              "name": "canEat",
+              "type": "ClassAttribute",
+              "owner": "class_xbot55ysu_moculp9u_rfx",
+              "bounds": {
+                "x": -297.5,
+                "y": -176.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "bool",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "method_ch771t2e8_moculp9u_0vp": {
+              "id": "method_ch771t2e8_moculp9u_0vp",
+              "name": "Swim()",
+              "type": "ClassMethod",
+              "owner": "class_xbot55ysu_moculp9u_rfx",
+              "bounds": {
+                "x": -297.5,
+                "y": -151.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_e8p5gzlgd_moculp9u_05t": {
+              "id": "class_e8p5gzlgd_moculp9u_05t",
+              "name": "Zebra",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -946,
+                "y": -235,
+                "width": 220,
+                "height": 90
+              },
+              "attributes": [
+                "attr_dzfrp3ukw_moculp9u_ev8"
+              ],
+              "methods": [
+                "method_1znj04p9z_moculp9u_ah6"
+              ]
+            },
+            "attr_dzfrp3ukw_moculp9u_ev8": {
+              "id": "attr_dzfrp3ukw_moculp9u_ev8",
+              "name": "is_wild",
+              "type": "ClassAttribute",
+              "owner": "class_e8p5gzlgd_moculp9u_05t",
+              "bounds": {
+                "x": -945.5,
+                "y": -194.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "bool",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "method_1znj04p9z_moculp9u_ah6": {
+              "id": "method_1znj04p9z_moculp9u_ah6",
+              "name": "run()",
+              "type": "ClassMethod",
+              "owner": "class_e8p5gzlgd_moculp9u_05t",
+              "bounds": {
+                "x": -945.5,
+                "y": -169.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "a3060a9d-ed48-4c70-96b2-a78d9a8de7c2": {
+              "id": "a3060a9d-ed48-4c70-96b2-a78d9a8de7c2",
+              "name": "Human",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -264,
+                "y": -528,
+                "width": 220,
+                "height": 90
+              },
+              "attributes": [
+                "f5e63bd8-a690-47f8-81dc-ecc2df2450ac",
+                "b7dfad40-023d-45e9-a136-037c7838040e"
+              ],
+              "methods": []
+            },
+            "f5e63bd8-a690-47f8-81dc-ecc2df2450ac": {
+              "id": "f5e63bd8-a690-47f8-81dc-ecc2df2450ac",
+              "name": "age",
+              "type": "ClassAttribute",
+              "owner": "a3060a9d-ed48-4c70-96b2-a78d9a8de7c2",
+              "bounds": {
+                "x": -263.5,
+                "y": -487.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "Int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "b7dfad40-023d-45e9-a136-037c7838040e": {
+              "id": "b7dfad40-023d-45e9-a136-037c7838040e",
+              "name": "name",
+              "type": "ClassAttribute",
+              "owner": "a3060a9d-ed48-4c70-96b2-a78d9a8de7c2",
+              "bounds": {
+                "x": -263.5,
+                "y": -462.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            }
+          },
+          "relationships": {
+            "rel_k7s4irqdd_moculp9u_lti": {
+              "id": "rel_k7s4irqdd_moculp9u_lti",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -517,
+                "y": -388,
+                "width": 18.899999618530273,
+                "height": 154.60000038146973
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 145
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_u0a66uip0_moculp9u_wx0",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_om2y99d5x_moculp9t_frd",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_kbjazx5cy_moculp9u_uw3": {
+              "id": "rel_kbjazx5cy_moculp9u_uw3",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -505,
+                "y": -388,
+                "width": 330.8999996185303,
+                "height": 155.60000038146973
+              },
+              "path": [
+                {
+                  "x": 317,
+                  "y": 146
+                },
+                {
+                  "x": 317,
+                  "y": 73
+                },
+                {
+                  "x": 5,
+                  "y": 73
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_xbot55ysu_moculp9u_rfx",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_om2y99d5x_moculp9t_frd",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_v663zd533_moculp9u_j47": {
+              "id": "rel_v663zd533_moculp9u_j47",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -841,
+                "y": -388,
+                "width": 354.8999996185303,
+                "height": 162.60000038146973
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 153
+                },
+                {
+                  "x": 5,
+                  "y": 76.5
+                },
+                {
+                  "x": 341,
+                  "y": 76.5
+                },
+                {
+                  "x": 341,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_e8p5gzlgd_moculp9u_05t",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_om2y99d5x_moculp9t_frd",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "86792367-414c-4c8f-9265-4676ba48bbaf": {
+              "id": "86792367-414c-4c8f-9265-4676ba48bbaf",
+              "name": "owns",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -213.3499984741211,
+                "y": -438,
+                "width": 47.349998474121094,
+                "height": 205.60000038146973
+              },
+              "path": [
+                {
+                  "x": 42.349998474121094,
+                  "y": 0
+                },
+                {
+                  "x": 42.349998474121094,
+                  "y": 196
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "a3060a9d-ed48-4c70-96b2-a78d9a8de7c2",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Topright",
+                "element": "class_xbot55ysu_moculp9u_rfx",
+                "multiplicity": "",
+                "role": "owns"
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-24T11:51:11.115Z"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "6dcb208e-3698-4916-9f34-1863432a8fe4",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-03T06:53:18.999Z"
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "c160c943-cf0f-4c86-848e-68ac2826125f",
+        "title": "Traffic Light",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 0,
+            "height": 0
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {},
+          "relationships": {},
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-27T07:40:30.468Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "116153b2-8db7-4d9a-9f8d-9e0a4edf097d",
+        "title": "Greeting Agent",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1320,
+            "height": 740
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "97627a74-e4e6-48af-9989-8d714dfe83b8": {
+              "id": "97627a74-e4e6-48af-9989-8d714dfe83b8",
+              "name": "initial",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": -474,
+                "y": -124,
+                "width": 140,
+                "height": 40
+              },
+              "bodies": [],
+              "fallbackBodies": []
+            },
+            "269178e5-8e58-4ddc-803f-d91e99e93fde": {
+              "id": "269178e5-8e58-4ddc-803f-d91e99e93fde",
+              "name": "greeting",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": 88,
+                "y": -143,
+                "width": 210,
+                "height": 100
+              },
+              "bodies": [
+                "354aee35-fcda-486b-85d8-854a3e620d2f",
+                "40894ba0-5b4b-4229-9b17-49fffeeea4d8"
+              ],
+              "fallbackBodies": []
+            },
+            "354aee35-fcda-486b-85d8-854a3e620d2f": {
+              "id": "354aee35-fcda-486b-85d8-854a3e620d2f",
+              "name": "Hi!",
+              "type": "AgentStateBody",
+              "owner": "269178e5-8e58-4ddc-803f-d91e99e93fde",
+              "bounds": {
+                "x": 88.5,
+                "y": -102.5,
+                "width": 209,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "40894ba0-5b4b-4229-9b17-49fffeeea4d8": {
+              "id": "40894ba0-5b4b-4229-9b17-49fffeeea4d8",
+              "name": "How are you?",
+              "type": "AgentStateBody",
+              "owner": "269178e5-8e58-4ddc-803f-d91e99e93fde",
+              "bounds": {
+                "x": 88.5,
+                "y": -72.5,
+                "width": 209,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "95bd55b0-680a-4f0c-9dd4-d4416344daca": {
+              "id": "95bd55b0-680a-4f0c-9dd4-d4416344daca",
+              "name": "",
+              "type": "StateInitialNode",
+              "owner": null,
+              "bounds": {
+                "x": -594,
+                "y": -124,
+                "width": 45,
+                "height": 45
+              }
+            },
+            "c629ac2b-4ce7-40bf-8382-41af767383c9": {
+              "id": "c629ac2b-4ce7-40bf-8382-41af767383c9",
+              "name": "Greeting_intent",
+              "type": "AgentIntent",
+              "owner": null,
+              "bounds": {
+                "x": -640,
+                "y": -350,
+                "width": 230,
+                "height": 130
+              },
+              "bodies": [
+                "87648564-ea5f-43d2-aef0-0b8f1e4bb19c",
+                "b230fdc3-0bf9-409e-b22e-a83b0017d9e3",
+                "73e5374e-6fa8-42a8-b6ef-03f3b32be48b"
+              ],
+              "intent_description": ""
+            },
+            "87648564-ea5f-43d2-aef0-0b8f1e4bb19c": {
+              "id": "87648564-ea5f-43d2-aef0-0b8f1e4bb19c",
+              "name": "Hi",
+              "type": "AgentIntentBody",
+              "owner": "c629ac2b-4ce7-40bf-8382-41af767383c9",
+              "bounds": {
+                "x": -639.5,
+                "y": -309.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "b230fdc3-0bf9-409e-b22e-a83b0017d9e3": {
+              "id": "b230fdc3-0bf9-409e-b22e-a83b0017d9e3",
+              "name": "Hello",
+              "type": "AgentIntentBody",
+              "owner": "c629ac2b-4ce7-40bf-8382-41af767383c9",
+              "bounds": {
+                "x": -639.5,
+                "y": -279.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "73e5374e-6fa8-42a8-b6ef-03f3b32be48b": {
+              "id": "73e5374e-6fa8-42a8-b6ef-03f3b32be48b",
+              "name": "Howdy",
+              "type": "AgentIntentBody",
+              "owner": "c629ac2b-4ce7-40bf-8382-41af767383c9",
+              "bounds": {
+                "x": -639.5,
+                "y": -249.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "83ffb8ea-e7bc-489b-b799-89c79df708b8": {
+              "id": "83ffb8ea-e7bc-489b-b799-89c79df708b8",
+              "name": "good",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": 74,
+                "y": 15,
+                "width": 220,
+                "height": 70
+              },
+              "bodies": [
+                "84f78bef-86d1-489b-8442-7d813b76833d"
+              ],
+              "fallbackBodies": []
+            },
+            "84f78bef-86d1-489b-8442-7d813b76833d": {
+              "id": "84f78bef-86d1-489b-8442-7d813b76833d",
+              "name": "AI response \ud83e\ude84",
+              "type": "AgentStateBody",
+              "owner": "83ffb8ea-e7bc-489b-b799-89c79df708b8",
+              "bounds": {
+                "x": 74.5,
+                "y": 55.5,
+                "width": 219,
+                "height": 30
+              },
+              "replyType": "llm"
+            },
+            "4331ac3a-aac0-439e-a43b-622ceec672b4": {
+              "id": "4331ac3a-aac0-439e-a43b-622ceec672b4",
+              "name": "Good_intent",
+              "type": "AgentIntent",
+              "owner": null,
+              "bounds": {
+                "x": -187,
+                "y": -339,
+                "width": 230,
+                "height": 130
+              },
+              "bodies": [
+                "a4f9f789-d4da-4db4-8f1f-1afd2c24fdff",
+                "2e98b7ce-722a-4402-a995-3ca1d4e56605",
+                "d58d039f-1851-4d83-aefb-b8adf392190e"
+              ],
+              "intent_description": ""
+            },
+            "a4f9f789-d4da-4db4-8f1f-1afd2c24fdff": {
+              "id": "a4f9f789-d4da-4db4-8f1f-1afd2c24fdff",
+              "name": "Good",
+              "type": "AgentIntentBody",
+              "owner": "4331ac3a-aac0-439e-a43b-622ceec672b4",
+              "bounds": {
+                "x": -186.5,
+                "y": -298.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "2e98b7ce-722a-4402-a995-3ca1d4e56605": {
+              "id": "2e98b7ce-722a-4402-a995-3ca1d4e56605",
+              "name": "Fine",
+              "type": "AgentIntentBody",
+              "owner": "4331ac3a-aac0-439e-a43b-622ceec672b4",
+              "bounds": {
+                "x": -186.5,
+                "y": -268.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "d58d039f-1851-4d83-aefb-b8adf392190e": {
+              "id": "d58d039f-1851-4d83-aefb-b8adf392190e",
+              "name": "I'm alright",
+              "type": "AgentIntentBody",
+              "owner": "4331ac3a-aac0-439e-a43b-622ceec672b4",
+              "bounds": {
+                "x": -186.5,
+                "y": -238.5,
+                "width": 229,
+                "height": 30
+              }
+            }
+          },
+          "relationships": {
+            "f21d5200-0820-4ea2-a1a7-1f208d8bfa3a": {
+              "id": "f21d5200-0820-4ea2-a1a7-1f208d8bfa3a",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -334,
+                "y": -104,
+                "width": 422,
+                "height": 1
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 422,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "97627a74-e4e6-48af-9989-8d714dfe83b8"
+              },
+              "target": {
+                "direction": "Downleft",
+                "element": "269178e5-8e58-4ddc-803f-d91e99e93fde"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "when_intent_matched",
+                "intentName": "Greeting_intent"
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "44b4863b-d7da-4316-bfc1-8dc0cfefc2d0": {
+              "id": "44b4863b-d7da-4316-bfc1-8dc0cfefc2d0",
+              "name": "",
+              "type": "AgentStateTransitionInit",
+              "owner": null,
+              "bounds": {
+                "x": -549,
+                "y": -104,
+                "width": 75,
+                "height": 1
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 75,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "95bd55b0-680a-4f0c-9dd4-d4416344daca"
+              },
+              "target": {
+                "direction": "Left",
+                "element": "97627a74-e4e6-48af-9989-8d714dfe83b8"
+              },
+              "isManuallyLayouted": false
+            },
+            "324b41be-02fe-4dfa-8ab3-079b8e84fd01": {
+              "id": "324b41be-02fe-4dfa-8ab3-079b8e84fd01",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": 294,
+                "y": -93,
+                "width": 44,
+                "height": 143
+              },
+              "path": [
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 44,
+                  "y": 0
+                },
+                {
+                  "x": 44,
+                  "y": 143
+                },
+                {
+                  "x": 0,
+                  "y": 143
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "269178e5-8e58-4ddc-803f-d91e99e93fde"
+              },
+              "target": {
+                "direction": "Right",
+                "element": "83ffb8ea-e7bc-489b-b799-89c79df708b8"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "when_intent_matched",
+                "intentName": "Good_intent"
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "b10d2d94-f9b2-431b-bce1-dea689ea34ae": {
+              "id": "b10d2d94-f9b2-431b-bce1-dea689ea34ae",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -404,
+                "y": -84,
+                "width": 588,
+                "height": 209
+              },
+              "path": [
+                {
+                  "x": 588,
+                  "y": 169
+                },
+                {
+                  "x": 588,
+                  "y": 209
+                },
+                {
+                  "x": 0,
+                  "y": 209
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "83ffb8ea-e7bc-489b-b799-89c79df708b8"
+              },
+              "target": {
+                "direction": "Down",
+                "element": "97627a74-e4e6-48af-9989-8d714dfe83b8"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "auto",
+                "conditionValue": ""
+              },
+              "custom": {
+                "condition": []
+              }
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-29T14:01:04.171Z"
+      }
+    ],
+    "GUINoCodeDiagram": [
+      {
+        "id": "ef39ff3c-14a6-4d38-a75e-41489d25028b",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Book",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "ioynj"
+                        },
+                        "components": [
+                          {
+                            "tagName": "nav",
+                            "attributes": {
+                              "id": "ijgn9"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h2",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "idcp8"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "BESSER"
+                                  }
+                                ]
+                              },
+                              {
+                                "attributes": {
+                                  "id": "i77ch"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/book",
+                                      "id": "ilnle"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Book"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/library",
+                                      "id": "inhth"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Library"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/author",
+                                      "id": "igbp5"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Author"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ibznd"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "\u00a9 2026 BESSER. All rights reserved."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tagName": "main",
+                            "attributes": {
+                              "id": "i4nx2"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h1",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "igs28"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Book"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "agent-component",
+                                "style": "",
+                                "classes": [
+                                  "agent-component"
+                                ],
+                                "attributes": {
+                                  "agent-name": "",
+                                  "agent-title": "BESSER Agent",
+                                  "id": "irpqb"
+                                },
+                                "agent-name": "",
+                                "agent-title": "BESSER Agent"
+                              },
+                              {
+                                "tagName": "p",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ieq4t"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage Book data"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "table",
+                                "style": "",
+                                "attributes": {
+                                  "chart-color": "#2c3e50",
+                                  "chart-title": "Book List",
+                                  "data-source": "class_oho5ergc3_mjikkmod",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "rows-per-page": "5",
+                                  "action-buttons": "true",
+                                  "columns": [
+                                    {
+                                      "field": "title",
+                                      "label": "Title",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "pages",
+                                      "label": "Pages",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "stock",
+                                      "label": "Stock",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "price",
+                                      "label": "Price",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "release",
+                                      "label": "Release",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "genre",
+                                      "label": "Genre",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "library",
+                                      "label": "Library",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_06blhjj3h_mjikkmod",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "authors",
+                                      "label": "Authors",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_d3f0di6lb_mjikkmoe",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "id": "table-book-0",
+                                  "filter": ""
+                                },
+                                "chart-title": "Book List",
+                                "data-source": "class_oho5ergc3_mjikkmod",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "action-buttons": "true",
+                                "rows-per-page": "5",
+                                "filter": "",
+                                "columns": [
+                                  {
+                                    "field": "title",
+                                    "label": "Title",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "pages",
+                                    "label": "Pages",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "stock",
+                                    "label": "Stock",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "price",
+                                    "label": "Price",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "release",
+                                    "label": "Release",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "genre",
+                                    "label": "Genre",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "library",
+                                    "label": "Library",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_06blhjj3h_mjikkmod",
+                                    "lookupField": "name",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "authors",
+                                    "label": "Authors",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_d3f0di6lb_mjikkmoe",
+                                    "lookupField": "name",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "components": [
+                                  {
+                                    "type": "tbody",
+                                    "draggable": [
+                                      "table"
+                                    ],
+                                    "droppable": [
+                                      "tr"
+                                    ],
+                                    "components": [
+                                      {
+                                        "type": "row",
+                                        "draggable": [
+                                          "thead",
+                                          "tbody",
+                                          "tfoot"
+                                        ],
+                                        "droppable": [
+                                          "th",
+                                          "td"
+                                        ],
+                                        "classes": [
+                                          "row"
+                                        ],
+                                        "components": [
+                                          {
+                                            "type": "cell",
+                                            "draggable": [
+                                              "tr"
+                                            ],
+                                            "classes": [
+                                              "cell"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "chart-color": "#2c3e50"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "iyp4k"
+                                },
+                                "components": [
+                                  {
+                                    "type": "action-button",
+                                    "style": "",
+                                    "classes": [
+                                      "action-button-component"
+                                    ],
+                                    "attributes": {
+                                      "type": "button",
+                                      "data-button-label": "+ decrease_stock",
+                                      "data-action-type": "run-method",
+                                      "data-method-class": "class_oho5ergc3_mjikkmod",
+                                      "data-method": "method_rb01uirsh_mjikkmod",
+                                      "data-instance-source": "table-book-0",
+                                      "id": "ilc3l"
+                                    },
+                                    "button-label": "+ decrease_stock",
+                                    "action-type": "run-method",
+                                    "method-class": "class_oho5ergc3_mjikkmod",
+                                    "method": "method_rb01uirsh_mjikkmod",
+                                    "instance-source": "table-book-0",
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ decrease_stock"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  },
+                  "id": "IelqW01Byya6PIDl"
+                }
+              ],
+              "id": "page-book-0",
+              "route_path": "/book"
+            },
+            {
+              "name": "Library",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i168y"
+                        },
+                        "components": [
+                          {
+                            "tagName": "nav",
+                            "attributes": {
+                              "id": "ia3cf"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h2",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "izjeq"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "BESSER"
+                                  }
+                                ]
+                              },
+                              {
+                                "attributes": {
+                                  "id": "inkup"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/book",
+                                      "id": "icbg4"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Book"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/library",
+                                      "id": "iefyv"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Library"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/author",
+                                      "id": "iasei"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Author"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "i0y5c"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "\u00a9 2026 BESSER. All rights reserved."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tagName": "main",
+                            "attributes": {
+                              "id": "i4e97"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h1",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ilv4d"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Library"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "p",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ij1gf"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage Library data"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "table",
+                                "style": "",
+                                "classes": [
+                                  "has-data-binding"
+                                ],
+                                "attributes": {
+                                  "chart-color": "#2c3e50",
+                                  "chart-title": "Library List",
+                                  "data-source": "class_06blhjj3h_mjikkmod",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "rows-per-page": "5",
+                                  "action-buttons": "true",
+                                  "columns": [
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "web_page",
+                                      "label": "Web Page",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "address",
+                                      "label": "Address",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "id": "table-library-1",
+                                  "filter": ""
+                                },
+                                "chart-title": "Library List",
+                                "data-source": "class_06blhjj3h_mjikkmod",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "action-buttons": "true",
+                                "rows-per-page": "5",
+                                "filter": "",
+                                "columns": [
+                                  {
+                                    "field": "name",
+                                    "label": "Name",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "web_page",
+                                    "label": "Web Page",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "address",
+                                    "label": "Address",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "components": [
+                                  {
+                                    "type": "tbody",
+                                    "draggable": [
+                                      "table"
+                                    ],
+                                    "droppable": [
+                                      "tr"
+                                    ],
+                                    "components": [
+                                      {
+                                        "type": "row",
+                                        "draggable": [
+                                          "thead",
+                                          "tbody",
+                                          "tfoot"
+                                        ],
+                                        "droppable": [
+                                          "th",
+                                          "td"
+                                        ],
+                                        "classes": [
+                                          "row"
+                                        ],
+                                        "components": [
+                                          {
+                                            "type": "cell",
+                                            "draggable": [
+                                              "tr"
+                                            ],
+                                            "classes": [
+                                              "cell"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "chart-color": "#2c3e50"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "i1erh"
+                                }
+                              },
+                              {
+                                "type": "agent-component",
+                                "style": "",
+                                "classes": [
+                                  "agent-component"
+                                ],
+                                "attributes": {
+                                  "agent-name": "",
+                                  "agent-title": "BESSER Agent",
+                                  "id": "iigof"
+                                },
+                                "agent-name": "",
+                                "agent-title": "BESSER Agent"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  },
+                  "id": "kqaZu4UWq9KboqIp"
+                }
+              ],
+              "id": "page-library-1",
+              "route_path": "/library"
+            },
+            {
+              "name": "Author",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "ihqhf"
+                        },
+                        "components": [
+                          {
+                            "tagName": "nav",
+                            "attributes": {
+                              "id": "iyima"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h2",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ikmgf"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "BESSER"
+                                  }
+                                ]
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ioj9h"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/book",
+                                      "id": "ieqny"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Book"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/library",
+                                      "id": "imdcl"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Library"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/author",
+                                      "id": "iyn7p"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Author"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ima8u"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "\u00a9 2026 BESSER. All rights reserved."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tagName": "main",
+                            "attributes": {
+                              "id": "irdif"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h1",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ilish"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Author"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "p",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "i1adk"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage Author data"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "table",
+                                "style": "",
+                                "attributes": {
+                                  "chart-color": "#2c3e50",
+                                  "chart-title": "Author List",
+                                  "data-source": "class_d3f0di6lb_mjikkmoe",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "rows-per-page": "5",
+                                  "action-buttons": "true",
+                                  "columns": [
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "birth",
+                                      "label": "Birth",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "books",
+                                      "label": "Books",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_oho5ergc3_mjikkmod",
+                                      "lookupField": "title",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "id": "table-author-2",
+                                  "filter": ""
+                                },
+                                "chart-title": "Author List",
+                                "data-source": "class_d3f0di6lb_mjikkmoe",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "action-buttons": "true",
+                                "rows-per-page": "5",
+                                "filter": "",
+                                "columns": [
+                                  {
+                                    "field": "name",
+                                    "label": "Name",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "birth",
+                                    "label": "Birth",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "books",
+                                    "label": "Books",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_oho5ergc3_mjikkmod",
+                                    "lookupField": "title",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "components": [
+                                  {
+                                    "type": "tbody",
+                                    "draggable": [
+                                      "table"
+                                    ],
+                                    "droppable": [
+                                      "tr"
+                                    ],
+                                    "components": [
+                                      {
+                                        "type": "row",
+                                        "draggable": [
+                                          "thead",
+                                          "tbody",
+                                          "tfoot"
+                                        ],
+                                        "droppable": [
+                                          "th",
+                                          "td"
+                                        ],
+                                        "classes": [
+                                          "row"
+                                        ],
+                                        "components": [
+                                          {
+                                            "type": "cell",
+                                            "draggable": [
+                                              "tr"
+                                            ],
+                                            "classes": [
+                                              "cell"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "chart-color": "#2c3e50"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  },
+                  "id": "lOxZXzED1bd2mlF9"
+                }
+              ],
+              "id": "page-author-2",
+              "route_path": "/author"
+            }
+          ],
+          "styles": [
+            {
+              "selectors": [
+                "#idcp8"
+              ],
+              "style": {
+                "margin-top": "0",
+                "font-size": "24px",
+                "margin-bottom": "30px",
+                "font-weight": "bold"
+              }
+            },
+            {
+              "selectors": [
+                "#ilnle"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "rgba(255,255,255,0.2)",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#inhth"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#igbp5"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#i77ch"
+              ],
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex": "1"
+              }
+            },
+            {
+              "selectors": [
+                "#ibznd"
+              ],
+              "style": {
+                "margin-top": "auto",
+                "padding-top": "20px",
+                "border-top": "1px solid rgba(255,255,255,0.2)",
+                "font-size": "11px",
+                "opacity": "0.8",
+                "text-align": "center"
+              }
+            },
+            {
+              "selectors": [
+                "#ijgn9"
+              ],
+              "style": {
+                "width": "250px",
+                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                "color": "white",
+                "padding": "20px",
+                "overflow-y": "auto",
+                "display": "flex",
+                "flex-direction": "column"
+              }
+            },
+            {
+              "selectors": [
+                "#igs28"
+              ],
+              "style": {
+                "margin-top": "0",
+                "color": "#333",
+                "font-size": "32px",
+                "margin-bottom": "10px"
+              }
+            },
+            {
+              "selectors": [
+                "#ieq4t"
+              ],
+              "style": {
+                "color": "#666",
+                "margin-bottom": "30px"
+              }
+            },
+            {
+              "selectors": [
+                "#table-book-0"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#ilc3l"
+              ],
+              "style": {
+                "display": "inline-flex",
+                "align-items": "center",
+                "padding": "6px 14px",
+                "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                "color": "#fff",
+                "text-decoration": "none",
+                "border-radius": "4px",
+                "font-size": "13px",
+                "font-weight": "600",
+                "letter-spacing": "0.01em",
+                "cursor": "pointer",
+                "border": "none",
+                "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                "transition": "background 0.2s"
+              }
+            },
+            {
+              "selectors": [
+                "#iyp4k"
+              ],
+              "style": {
+                "margin-top": "20px",
+                "display": "flex",
+                "gap": "10px",
+                "flex-wrap": "wrap"
+              }
+            },
+            {
+              "selectors": [
+                "#i4nx2"
+              ],
+              "style": {
+                "flex": "1",
+                "padding": "40px",
+                "overflow-y": "auto",
+                "background": "#f5f5f5"
+              }
+            },
+            {
+              "selectors": [
+                "#ioynj"
+              ],
+              "style": {
+                "display": "flex",
+                "height": "100vh",
+                "font-family": "Arial, sans-serif"
+              }
+            },
+            {
+              "selectors": [
+                "#izjeq"
+              ],
+              "style": {
+                "margin-top": "0",
+                "font-size": "24px",
+                "margin-bottom": "30px",
+                "font-weight": "bold"
+              }
+            },
+            {
+              "selectors": [
+                "#icbg4"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iefyv"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "rgba(255,255,255,0.2)",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iasei"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#inkup"
+              ],
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex": "1"
+              }
+            },
+            {
+              "selectors": [
+                "#i0y5c"
+              ],
+              "style": {
+                "margin-top": "auto",
+                "padding-top": "20px",
+                "border-top": "1px solid rgba(255,255,255,0.2)",
+                "font-size": "11px",
+                "opacity": "0.8",
+                "text-align": "center"
+              }
+            },
+            {
+              "selectors": [
+                "#ia3cf"
+              ],
+              "style": {
+                "width": "250px",
+                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                "color": "white",
+                "padding": "20px",
+                "overflow-y": "auto",
+                "display": "flex",
+                "flex-direction": "column"
+              }
+            },
+            {
+              "selectors": [
+                "#ilv4d"
+              ],
+              "style": {
+                "margin-top": "0",
+                "color": "#333",
+                "font-size": "32px",
+                "margin-bottom": "10px"
+              }
+            },
+            {
+              "selectors": [
+                "#ij1gf"
+              ],
+              "style": {
+                "color": "#666",
+                "margin-bottom": "30px"
+              }
+            },
+            {
+              "selectors": [
+                "#table-library-1"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#i1erh"
+              ],
+              "style": {
+                "margin-top": "20px",
+                "display": "flex",
+                "gap": "10px",
+                "flex-wrap": "wrap"
+              }
+            },
+            {
+              "selectors": [
+                "#i4e97"
+              ],
+              "style": {
+                "flex": "1",
+                "padding": "40px",
+                "overflow-y": "auto",
+                "background": "#f5f5f5"
+              }
+            },
+            {
+              "selectors": [
+                "#i168y"
+              ],
+              "style": {
+                "display": "flex",
+                "height": "100vh",
+                "font-family": "Arial, sans-serif"
+              }
+            },
+            {
+              "selectors": [
+                "#ikmgf"
+              ],
+              "style": {
+                "margin-top": "0",
+                "font-size": "24px",
+                "margin-bottom": "30px",
+                "font-weight": "bold"
+              }
+            },
+            {
+              "selectors": [
+                "#ieqny"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#imdcl"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iyn7p"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "rgba(255,255,255,0.2)",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#ioj9h"
+              ],
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex": "1"
+              }
+            },
+            {
+              "selectors": [
+                "#ima8u"
+              ],
+              "style": {
+                "margin-top": "auto",
+                "padding-top": "20px",
+                "border-top": "1px solid rgba(255,255,255,0.2)",
+                "font-size": "11px",
+                "opacity": "0.8",
+                "text-align": "center"
+              }
+            },
+            {
+              "selectors": [
+                "#iyima"
+              ],
+              "style": {
+                "width": "250px",
+                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                "color": "white",
+                "padding": "20px",
+                "overflow-y": "auto",
+                "display": "flex",
+                "flex-direction": "column"
+              }
+            },
+            {
+              "selectors": [
+                "#ilish"
+              ],
+              "style": {
+                "margin-top": "0",
+                "color": "#333",
+                "font-size": "32px",
+                "margin-bottom": "10px"
+              }
+            },
+            {
+              "selectors": [
+                "#i1adk"
+              ],
+              "style": {
+                "color": "#666",
+                "margin-bottom": "30px"
+              }
+            },
+            {
+              "selectors": [
+                "#table-author-2"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#irdif"
+              ],
+              "style": {
+                "flex": "1",
+                "padding": "40px",
+                "overflow-y": "auto",
+                "background": "#f5f5f5"
+              }
+            },
+            {
+              "selectors": [
+                "#ihqhf"
+              ],
+              "style": {
+                "display": "flex",
+                "height": "100vh",
+                "font-family": "Arial, sans-serif"
+              }
+            },
+            {
+              "selectors": [
+                "#iigof"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#irpqb"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            }
+          ],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-04-22T13:02:40.409Z"
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "1ddb4892-e7f9-45cd-af35-a18e2d9c4e3e",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [
+            [
+              "H",
+              1,
+              1
+            ],
+            [
+              "S",
+              "\u2022",
+              1
+            ],
+            [
+              "Z^\u00bc",
+              1,
+              "\u2022"
+            ],
+            [
+              1,
+              "H",
+              1
+            ],
+            [
+              1,
+              "S",
+              "\u2022"
+            ],
+            [
+              1,
+              1,
+              "H"
+            ],
+            [
+              "Swap",
+              1,
+              1
+            ]
+          ],
+          "gates": [],
+          "gateMetadata": {},
+          "initialStates": [
+            "|0\u27e9",
+            "|0\u27e9",
+            "|0\u27e9"
+          ],
+          "classicalBitCount": 0,
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-04-25T12:24:57.702Z"
+      }
+    ],
+    "UserDiagram": [
+      {
+        "id": "59928ed1-69a5-4d2a-853f-486fa0bd72c1",
+        "title": "User Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "UserDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-29T06:08:34.000Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false
+  }
+}
